@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open API Project</title>
-  <link rel="stylesheet" href="index.css">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/index.css"/>
+  <!-- Optional: Add Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Weather Data</h1>
-  <div id="weather-data">
-    <!-- Data will be inserted here -->
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search">
+      <input type="text" id="location-input" placeholder="Enter city or coordinates (e.g., 40.71,-74.01)">
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="weather-data">
+      <p>Enter a location to see the weather.</p>
+    </div>
   </div>
-  <script src="index.js"></script>
+
+  <script src="js/index.js"> </script> 
+
 </body>
 </html>
