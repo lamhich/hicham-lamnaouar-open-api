@@ -53,12 +53,14 @@ h1 {
 }
 
 #weather-data {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+
 }
 
 #weather-data p {
   margin: 0.5rem 0;
-  color: hsl(240, 1%, 36%);
+  color: hsl(0, 0%, 29%);
+  padding-right: 20%;
 }
 
 /* Media Queries */
